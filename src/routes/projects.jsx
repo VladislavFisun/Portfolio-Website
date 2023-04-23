@@ -19,60 +19,26 @@ const projects = [
         title: 'Online Shop',
         // subtitle: 'Junior Developer and Lead 2D Artist',
         link: "https://github.com/VladislavFisun/OnlineShop",
-        description: "Online Shop created with React.js, Redux Toolkit and Platzi Fake Store API "
+        description: "to create this application, I used JavaScript as a programming language and React.js , Redux toolkit  was used  to store information, I used css to create styles, all data was taken from Platzi Fake Api "
       },
       {
         img: onlineChat,
         title: 'Online Chat',
         subtitle: 'description',
         link: "https://github.com/VladislavFisun/Chat-client",
-        description: "description"
+        description: 'When creating this application for the client side, I used TypeScript as the main programming language, react was used as the main framework, I used the Material UI, the css framework Tailwind and scss to create styles for components.For the server side, I used  node.js and the express.js as framework for node, the library was also used socket.io to create a permanent connection between the server and the client'
+        
       },
       {
         img: Stocks,
-        title: 'Stocks',
+        title: 'Stocks price',
         subtitle: 'description...',
-        link: "https://www.youtube.com/@gisketch/",
-        description: "As a fan of many anime and video game franchises, I've created fan animations and content on my YouTube channel in the past. Although my last one was from 2018, I still cherish those memories and would like to share my creations with fellow fans. On my channel, you'll find a variety of fan animations, speedpaints, and other content inspired by my favorite franchises."
+        link: "https://github.com/VladislavFisun/StocksPrice",
+        description: "to create this application, I used typescript as a programming language, and Mobx state manager was used to store information, I used Tailwind to create styles, data on promotions was taken from the Finhub service"
       },
     ]
   },
-  // {
-  //   title: '2023',
-  //   projects: [
-  //     {
-  //       img: zeldaimg,
-  //       title: 'ZELDA',
-  //       subtitle: 'My Undergraduate Thesis Project',
-  //       link: "https://github.com/gisketch/ZELDA-math-parser",
-  //       description: "Zelda is a natural language mathematical expression parser powered by OpenAI's GPT-3 language model. It is designed to work on a touch screen display used in Raspberry Pi. The application is built in JavaScript and ReactJS."
-  //     },
-  //   ]
-  // },
-  // {
-  //   title: '2022',
-  //   projects: [
-  //     {
-  //       img: datathonimg,
-  //       title: 'Datathon Competition',
-  //       subtitle: '2022 National Jiecep National Champion 🏆',
-  //       link: "https://www.facebook.com/ghegijmnz/posts/pfbid021pjTeKwmRqAph5ur8GhJYDMYWhNBT373EPve6Ms4jJSxZGcKhx71ya5QnLdM22Jgl",
-  //       description: "My leadership and my team's collective effort led us to win the national programming competition (Whole Philippines) with 118 out of 120 points. It was an unexpected victory, and I am grateful for my and my teammates' problem-solving skills and the unwavering support of our coach and the ICTC family. This victory was a significant achievement."
-  //     },
-  //   ]
-  // },
-  // {
-  //   title: '2021',
-  //   projects: [
-  //     {
-  //       img: covidimg,
-  //       title: 'COVID Armageddon',
-  //       subtitle: '2021 MCM YES Competition Champion 🏆',
-  //       link: "https://github.com/gisketch/covid-armageddon",
-  //       description: "Developing this game was a grueling task that required sacrifices, hard work, and dedication. As the only one on the team with coding and art experience, I worked tirelessly to bring the game to life while juggling my studies. Despite the challenges, the game was well-received, and the experience taught me the value of perseverance and the rewards of hard work."
-  //     },
-  //   ]
-  // },
+
 ]
 
 function Projects() {

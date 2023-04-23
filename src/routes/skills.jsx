@@ -12,6 +12,10 @@ import jsimg from '../assets/images/js.png';
 import Redux from '../assets/images/Redux.png';
 import NodeJs from '../assets/images/node.png'
 import css from '../assets/images/css3.svg'
+import scss from '../assets/images/scss.png'
+import tailwind from '../assets/images/tailwind.png'
+import material from '../assets/images/Material.png'
+import mobx from '../assets/images/mobx.png'
 import csharpimg from '../assets/images/csharp.png';
 import photoshopimg from '../assets/images/photoshop.png';
 import blenderimg from '../assets/images/blender3d.png';
@@ -37,44 +41,57 @@ const skills = [
         level: 7,
         description: ' good'
       },
-      
-    ]
-  },
-  { 
-    command: 'webdev',
-    comment: 'click anywhere to continue',
-    data: [
       {
         image: 'https://w7.pngwing.com/pngs/915/519/png-transparent-typescript-hd-logo.png',
         name: 'TypeScript',
         level: 4,
         description: 'working on it',
       },
+      
+    ]
+  },
+  { 
+    command: 'styles',
+    comment: 'click anywhere to continue',
+    data: [
+  
       {
-        image: Redux,
-        name: 'Redux',
-        level: 8,
-        description: 'quite good'
+        image:material,
+        name: 'Material UI',
+        level: 6,
+        description: 'good'
+      },
+      {
+        image:scss,
+        name: 'Scss',
+        level: 7,
+        description: 'good'
+      },
+      {
+        image:tailwind,
+        name: 'Tailwind',
+        level: 6,
+        description: ' good'
       },
     ]
   },
 
   { 
-    command: 'webdev',
+    command: 'state managers',
     comment: 'click anywhere to continue',
 
     data: [
       {
-        image: NodeJs,
-        name: 'NodeJs',
-        level: 3,
-        description: 'at start of the learning',
+        image: Redux,
+        name: 'Redux',
+        level: 7,
+        description: 'good',
       },
       {
-        image:css,
-        name: 'Css',
-        level: 8,
-        description: 'quite good'
+        image:mobx,
+        name: 'Mobx',
+        level: 5,
+        description: 'getting the hang of it'
       },
     ]
   },
